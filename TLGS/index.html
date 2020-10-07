@@ -1,0 +1,415 @@
+<html>
+<head>
+    <title>
+    TLGS consulting
+    </title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"  >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+    
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    
+    </head>
+    
+    
+    <body>
+   
+<!--------------------navigation------------->        
+        
+  <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+     <a href="index.html" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+            <!--
+      <li class="nav-item dropdown">
+          
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Industries</a>
+                  
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+           <a class="dropdown-item" href="industries/aerospace.html">Aerospace</a>
+           <a class="dropdown-item" href="industries/defence.html">Defence</a>
+          <a class="dropdown-item" href="industries/healthcare.html">Healthcare</a>
+            <a class="dropdown-item" href="industries/technology.html">Technology</a>
+            <a class="dropdown-item" href="industries/government-and-public-sectors.html">Government and public services </a>
+            <a class="dropdown-item" href="industries/pharmaceuticals-and-life-sciences.html">Pharmaceutical and life sciences </a>
+           
+        </div>
+  </li> -->
+        
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Industries
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="industries/aerospace.html">Aerospace</a>
+           <a class="dropdown-item" href="industries/defence.html">Defence</a>
+          <a class="dropdown-item" href="industries/healthcare.html">Healthcare</a>
+            <a class="dropdown-item" href="industries/technology.html">Technology</a>
+            <a class="dropdown-item" href="industries/government-and-public-sectors.html">Government and public services </a>
+            <a class="dropdown-item" href="industries/pharmaceuticals-and-life-sciences.html">Pharmaceutical and life sciences </a>
+  </div>
+</div>
+        
+      <!--    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services & Sectors
+        </a>
+                    
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="services/energy.html">Energy</a>
+          <a class="dropdown-item" href="services/funds.html">Funds</a>
+          <a class="dropdown-item" href="services/industrials.html">Industrials</a>
+         <a class="dropdown-item" href="services/mining.html">Mining</a>
+             <a class="dropdown-item" href="services/real-estate.html">Real Estate</a>
+             <a class="dropdown-item" href="services/infrastructure-and-transport.html">Infrastructure & Transport</a>
+             <a class="dropdown-item" href="services/technology-media-and-communication.html">Technology, Media & communication</a>
+              </div>
+      </li> -->
+        
+         <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Services & Sectors
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="services/energy.html">Energy</a>
+          <a class="dropdown-item" href="services/funds.html">Funds</a>
+          <a class="dropdown-item" href="services/industrials.html">Industrials</a>
+         <a class="dropdown-item" href="services/mining.html">Mining</a>
+             <a class="dropdown-item" href="services/real-estate.html">Real Estate</a>
+             <a class="dropdown-item" href="services/infrastructure-and-transport.html">Infrastructure & Transport</a>
+             <a class="dropdown-item" href="services/technology-media-and-communication.html">Technology, Media & communication</a>
+  </div>
+</div>
+         
+    <!--      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Research & insights
+        </a>
+                    
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="research-and-insights/reimagining-leadership.html">Reimagining leadership</a>
+          <a class="dropdown-item" href="research-and-insights/tech-breakthroughs-megatrend.html">Tech breakthroughs megatrend</a>
+          <a class="dropdown-item" href="research-and-insights/transactions-in-real-estate.html">Transactions in the real estate sector</a>
+            <a class="dropdown-item" href="research-and-insights/union-budget.html">Union Budget 2020</a>
+            <a class="dropdown-item" href="research-and-insights/making-m&a-successful.html">Making M&A successful</a>
+            <a class="dropdown-item" href="research-and-insights/emerging-trends-in-real-estate.html">Emerging Trends in Real Estate®</a>
+        
+        </div>
+      </li> -->
+        
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Research & insights
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="research-and-insights/reimagining-leadership.html">Reimagining leadership</a>
+          <a class="dropdown-item" href="research-and-insights/tech-breakthroughs-megatrend.html">Tech breakthroughs megatrend</a>
+          <a class="dropdown-item" href="research-and-insights/transactions-in-real-estate.html">Transactions in the real estate sector</a>
+            <a class="dropdown-item" href="research-and-insights/union-budget.html">Union Budget 2020</a>
+            <a class="dropdown-item" href="research-and-insights/making-m&a-successful.html">Making M&A successful</a>
+            <a class="dropdown-item" href="research-and-insights/emerging-trends-in-real-estate.html">Emerging Trends in Real Estate®</a>
+  </div>
+</div>
+        
+         <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About us
+        </a> 
+        <li>
+                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    About us
+  </button> 
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="about/alumni.html">Alumni</a>
+          <a class="dropdown-item" href="about/sustainability.html">Sustainability</a>
+          <a class="dropdown-item" href="about/analyst-relations.html">Analyst Relations</a>
+          
+            <a class="dropdown-item" href="about/our-purpose-and-values.html">Our purpose and values</a>
+            <a class="dropdown-item" href="about/innovation.html/">Innovation</a>
+            <a class="dropdown-item" href="about/procurement-at-tlgs.html">Procurement at TLGS</a>
+            
+        </div>
+            </li>
+    </li>-->
+        
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    About us
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="about/alumni.html">Alumni</a>
+          <a class="dropdown-item" href="about/sustainability.html">Sustainability</a>
+          <a class="dropdown-item" href="about/analyst-relations.html">Analyst Relations</a>
+          
+            <a class="dropdown-item" href="about/our-purpose-and-values.html">Our purpose and values</a>
+            <a class="dropdown-item" href="about/innovation.html/">Innovation</a>
+            <a class="dropdown-item" href="about/procurement-at-tlgs.html">Procurement at TLGS</a>
+  </div>
+</div>
+        
+        
+        
+    </ul>
+  </div>
+</nav>
+      </section>
+   
+        
+    <!------------------------------Article---------------------->
+        
+        
+        <section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20">
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">ARTICLES</h1>
+        <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+      </div>
+      <!--p class="lg:w-1/2 w-full leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p-->
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/720x400/?threat" alt="content">
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">25/03/19</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Data breach – threat landscape</h2>
+          <p class="leading-relaxed text-base">Understand how data breaches pose a constant threat, and how such incidents can be handled to mitigate their impact (Data breach response strategy).</p>
+            <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/721x401/?navigation" alt="content">
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">22/03/19</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Navigating the new paradigm</h2>
+          <p class="leading-relaxed text-base">For CFOs and finance leaders to take a more dynamic role in their new roles, finance as a function will have to be redefined on new principles of Navigation, medication....</p>
+            <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/722x402/?rebuilding" alt="content">
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">06/03/19</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Rebuilding homes, rebuilding dreams</h2>
+          <p class="leading-relaxed text-base">Satyavati Berera, Chief Operating Officer, PwC India, shares her experience of visiting the village that was devastated by the Kerala floods.</p>
+            <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/723x403/?agriculture" alt="content">
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">17/01/19</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Indian agriculture outlook</h2>
+          <p class="leading-relaxed text-base">Indian agriculture has been a key contributor to India’s growth story and continues to be one of biggest employers. The sector is likely to grow at an rate of.... </p>
+            <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        
+      
+    <!---------research and insights--------------->
+        
+        
+        <section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20">
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">RESEARCH AND INSIGHTS</h1>
+        <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+      </div>
+      <!--p class="lg:w-1/2 w-full leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p-->
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/720x400/?covid" alt="content">
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">13/07/20</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Reviving India’s API industry: From the viewpoint of the COVID-19 outbreak</h2>
+          <p class="leading-relaxed text-base">In the context of the recent COVID-19 outbreak, PwC has undertaken an independent study to understand the challenges faced by the Indian active pharmaceutical...</p>
+            <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/721x401/?deals" alt="content">
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">20/07/20</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Deals in India: Mid-year review and outlook for 2020 – pause and consolidation</h2>
+          <p class="leading-relaxed text-base">Get to know the mid-year review for deal activity in India and the future of deals in the wake of the current crisis.</p>
+            <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/722x402/?research" alt="content">
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">14/07/20</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Accelerated counterparty due diligence</h2>
+          <p class="leading-relaxed text-base">Understand the benefits and importance of TLGS accelerated counterparty due diligence programme.</p>
+            <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/723x403/?insurance industry" alt="content">
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">16/06/20</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">COVID-19: Impact on the Indian insurance industry</h2>
+          <p class="leading-relaxed text-base">Understand the effect of the COVID-19 pandemic on the Indian insurance industry and the short-term considerations for the sector in light of the pandemic.</p>
+            <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        
+    <!------------------featured----------------------->
+        
+        
+       <section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col">
+      <div class="lg:w-1/2 w-full mb-4 lg:mb-0">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">FEATURED</h1>
+        <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+      </div>
+    <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+      </div>
+        
+    </div>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="https://source.unsplash.com/1203x503/?manufacturing">
+        </div>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Advantage India - Your next manufacturing destination</h2>
+        <p class="text-base leading-relaxed mt-2">Think global, act local, serve ‘glocal’. Pivoting around this concept, India has a distinct advantage with its large internal market, strategic location for exports, and a thriving private sector. This serves India both internally and for the world.</p>
+        <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="https://source.unsplash.com/1204x504/?digital">
+        </div>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Digital Fitness For The World</h2>
+        <p class="text-base leading-relaxed mt-2">The future of technology holds promise for all of us. Whether it’s self-aware robots, smart clothing, or an unhackable Quantum Internet, there are a lot of cutting-edge inventions out there.</p>
+        <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="https://source.unsplash.com/1205x505/?privacy,security">
+        </div>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Data privacy and security considerations for mergers and acquisitions</h2>
+        <p class="text-base leading-relaxed mt-2">Are your processes and systems ready for what is next? Hear about the key roles Internal Audit can and will play in the advancement of privacy.</p>
+        <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+       
+        
+<!-----------------footer-------------------->
+        <section class="footer">
+        <footer class="text-gray-700 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a href="index.html" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">TLGS</span>
+    </a>
+    <p class="text-sm  sm:ml-4 sm:pl-4  sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 TLGS consulting 
+     
+    </p>
+    <span class="icon inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </span>
+  </div>
+</footer>
+        </section>
+    
+    </body>
+
+</html>
